@@ -1,0 +1,554 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 2px 10px 0px #d8d8d8;
+    display: flex;
+}
+
+.headerRight {
+    /* background-color: yellow; */
+    width: 47%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.headerLeft {
+    /* background-color: red; */
+    width: 54%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    display: flex;
+    background: transparent;
+    margin-left: 8%;
+    align-items: center;
+    padding-top: 4px;
+
+
+}
+
+/* .menu {
+    margin-left: 10px;
+} */
+
+.menu>ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+    
+.menu>ul>li a {
+    font-size: 14px;
+    color: #464a5a;
+}
+
+sup {
+    font-size: 10px;
+    color: red;
+    padding: 5px;
+}
+
+form {
+    padding: 5px;
+    border-radius: 20px solid black;
+    border: none;
+    margin-left: 6%;
+    border-radius: 5px;
+    background-color:#f5f5f6;
+}
+
+
+form input {
+    padding: 10px;
+    width: 450px;
+    background: transparent;
+    border: none;
+    
+}
+
+form button {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    
+}
+
+.profile {
+    display: flex;
+    margin-right: 50px;
+}
+
+.profile ul {
+    display: flex;
+}
+
+.profile ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+    margin-right: 10px; 
+    font-weight: bold;
+    color: #464a5a;;
+}
+
+
+
+.firstLine {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    /* background-color: red; */
+    background-color: #e6edff;
+    box-shadow: inset 0px 0px 10px 5px #e6edff;
+}
+
+.firstLine .line {
+    display: flex;
+    height: 50px;
+    width: 25%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    
+}
+
+span{
+    color: red;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+}
+
+.banner .allBanner {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner .allBanner img {
+    display: flex;
+    height: 100%;
+    padding-top: 8px;
+    width: 50%;  
+    margin: auto;
+}
+
+.bannerFooter {
+    display: flex;
+    width: 100%;
+}
+
+.bannerFooter .allBannerFooter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 8px;
+
+}
+
+.bannerFooter .allBannerFooter img {
+    width: 15%;
+    
+}
+
+.sponsorBanner {
+    display: flex;
+}
+
+.sponsorBanner .sponsor {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.sponsorBanner .sponsor img {
+    width: 25%;
+}
+
+
+.couponCorner {
+    display: flex;
+}
+
+.couponCorner .coupon {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.couponCorner .coupon img {
+    width: 100%;
+}
+
+
+.codeimg {
+    display: flex;
+}
+
+.codeimg .code {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.codeimg .code img {
+    width: 37%; 
+}
+
+
+.openoffer {
+    display: flex;
+    width: 100%; 
+}
+
+.openoffer .offer {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+}
+
+.openoffer .offer img {
+    display: flex;
+    width: 74%;
+}
+
+.savingBanner {
+    display: flex;
+    width: 100%;
+}
+
+.savingBanner .saving {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.savingBanner .saving img {
+    display: flex;
+    width: 74%;
+}
+
+
+.midBanner {
+    display: flex;
+    width: 100%;
+    
+}
+
+.midBanner .mid {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.midBanner .mid img {
+    display: flex;
+    width: 18.5%;
+    padding-top: 20px;
+}
+
+
+.categoryBanner {
+    display: flex;
+    width: 100%;
+}
+
+.categoryBanner .category {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+
+.categoryBanner .category img {
+    display: flex;
+    width: 88%;
+}
+
+.boxCat {
+    display: flex;
+    width: 100%;
+}
+
+.boxCat>ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxCat>ul>li img {
+    display: flex;
+    height: 300px;
+}
+
+
+.appsImg {
+    display: flex;
+    width: 100%;
+}
+
+.appsImg .apps {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+}
+
+.appsImg .apps img {
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.footerSection {
+    display: flex;
+    width: 100%;
+    /* background-color: blue; */
+}
+.footerSection .footerLeft {
+    display: flex;
+    width: 35%;
+    height: 570px;
+    /* background-color: yellow; */
+}
+
+.footerSection .footerRight {
+    display: flex;
+    width: 65%;
+    height: 570px;
+    /* background-color: red; */
+
+}
+
+.onlineShopping {
+    display: flex;
+}
+
+.onlineShopping form {
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 100px;
+    height: 78%;
+    
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #81736e;
+    font-size: 15px;
+    
+}
+
+.name1 span {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+.customerPolicies {
+    display: flex;
+    margin-left: -78px;
+}
+
+.customerPolicies form {
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 100px;
+    height: 320px;
+    
+}
+
+.myntraAppIcon {
+    display: flex;             
+    height: 20px;
+    /* background-color: skyblue; */
+    margin-top: 102px;
+    padding: 2px;
+
+}
+
+.myntraAppIcon span {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    height: 15px;
+    
+}
+
+.downloadApp {
+    display: flex;
+    height: 0px;
+    width: 30%;
+    /* background-color: orange; */
+    padding-top: 135px;
+    margin-top: 140px;
+    margin-left: -238px;
+    gap: 5px;
+    
+}
+.downloadApp img {
+    display: flex;
+    width: 100%;
+    height: 47px;
+    margin-top: -127px;
+    margin-left: 4px;   
+}
+
+
+.myntraKit {
+    display: flex;          
+    height: 20px;
+    /* background-color: skyblue; */
+    margin-top: 230px;
+    margin-left: -292px;
+}
+
+
+.myntraKit span {
+    display: flex;
+    /* background-color: skyblue; */
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    height: 15px;
+}
+
+.appLogo {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    gap: 17px;
+    padding-top: 260px;
+    margin-left: -92px;
+}
+
+.originalPng {
+    display: flex;
+    height: 40px;
+    width: 50px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.original {
+    display: flex;
+    height: 40px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.original span {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.original span p {
+    font-weight: 500;
+    font-size: 13px;
+    color: #81736e;
+}
+
+.guaranteeText {
+    display: flex;
+    height: 20px;
+    width: 100px;
+    color: #81736e;
+    /* background-color: yellow; */
+    margin-top: 100px;
+    padding-left: 5px;
+}
+
+.allText {
+    display: flex;
+    height: 20px;
+    width: 220px;
+    color: #81736e;
+    /* background-color: lightgreen; */
+    margin-top: 120px;
+    margin-left: -220px;
+}
+
+.shufflePng {
+    display: flex;
+    background-color: white;
+    height: 40px;
+    width: 50px;
+    margin-top: 155px;
+    margin-left: -274px;
+}
+
+.shuffleText {
+    display: flex;
+    height: 20px;
+    width: 170px;
+    background-color: white;
+    margin-top: 155px;
+    padding-left: 5px;
+}
+
+.ofText {
+    display: flex;
+    height: 20px;
+    width: 170px;
+    /* background-color: yellow; */
+    margin-top: 175px;
+    padding-left: 5px;
+    margin-left: -175px;
+}
+
+.shuffleText p {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.shuffleText p span  {
+    display: flex;
+    margin-left: 3px;
+    /* color: #635658; */
+    color: #81736e;
+    font-weight: normal;
+    /* background-color: yellow; */
+}
+
+.ofText {
+    display: flex;
+    /* background-color: lightgreen; */
+    color: #81736e;
+}
